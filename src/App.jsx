@@ -55,13 +55,13 @@ function App() {
           
           <button
           onClick= {() => setColor("black")}
-          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-          style={{backgroundColor: "black"}}
+          className=" px-4 py-1 rounded-full  text-white "
+          style={{backgroundColor: "black"}} // this color is of icon color
           >Black</button> 
           
           <button
           onClick= {() => setColor("yellow")}
-          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          className="outline-none px-4 py-1 rounded-full text-black shadow-lg"
           style={{backgroundColor: "yellow"}}
           >Yellow</button> 
          
